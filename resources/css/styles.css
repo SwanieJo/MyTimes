@@ -31,6 +31,33 @@ li a {
   font-weight: bold;
 }
 
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+h4 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 .centered_row {
   display: flex;
   flex-direction: row;
@@ -48,9 +75,10 @@ li a {
   margin-right: 32px;
 }
 
-.story.one.image {
-  align-items: left;
-  border: 1px solid black;
+.story-image {
+  background-image: url("css/images/main-story.png");
+  /*align-items: left;
+  border: 1px solid black;*/
 }
 
 .story.one {
@@ -69,6 +97,7 @@ li a {
 }
 
 .headline.one {
+  background-image: url("resources/css/images/fall-season.png");
   align-items: left;
   border: 1px solid black;
 }
